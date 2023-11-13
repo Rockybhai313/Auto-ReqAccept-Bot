@@ -13,7 +13,7 @@ API_ID = int(env.get('API_ID'))
 API_HASH = env.get('API_HASH')
 BOT_TOKEN = env.get('BOT_TOKEN')
 DB_URL = env.get('DB_URL')
-ADMINS = int(env.get('ADMINS'))
+ADMIN = int(env.get('ADMINS'))
 
 Dbclient = AsyncIOMotorClient(DB_URL)
 Cluster = Dbclient['Cluster0']
